@@ -76,4 +76,4 @@ If you'd like to contribute to this project, Kindly create an issue.
 
 ## License
 
-This project is licensed under the GPLv3
+This project is licensed under the Unlicence Licence
