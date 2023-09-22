@@ -64,8 +64,10 @@ pip install -r requirements.txt
 ## Results
 
 There were two models tested as provided in the repository. 
-PytorchCNN-01 contains a simple CNN which yielded an accuracy of 93.78%
-PytorchCNN-02 contains a deeper CNN which yielded an accuracy of 87.90%
+
+PytorchCNN-01 contains a simple CNN which yielded an accuracy of `93.78%`
+
+PytorchCNN-02 contains a deeper CNN which yielded an accuracy of `87.90%`
 
 
 ## Contributing
