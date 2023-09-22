@@ -13,6 +13,21 @@ The project aims to differentiate between genuine and manipulated images generat
 - Integration with PyTorch for deep learning
 - GPU accelerated training and inference
 
+## Model Architecture
+
+### PytorchCNN-01
+
+This model has one convolutional layer, followed by max-pooling, and two fully connected layers .
+The final layer is a linear layer.
+
+### PytorchCNN-02 
+
+There are three sets of convolutional layers in this model. 
+Each set includes a convolutional layer followed by a ReLU activation function and a max-pooling layer.
+
+The fully connected layers include a hidden layer and ReLU activation, followed by dropout regularization.
+It ending with a final output layer with a single unit and sigmoid activation for binary classification.
+
 ## Prerequisites
 
 Before running the project, ensure you have the following dependencies installed:
@@ -48,7 +63,10 @@ pip install -r requirements.txt
 
 ## Results
 
-Provide details about the performance metrics and any other relevant information about the results achieved by the model.
+There were two models tested as provided in the repository. 
+PytorchCNN-01 contains a simple CNN which yielded an accuracy of 93.78%
+PytorchCNN-02 contains a deeper CNN which yielded an accuracy of 87.90%
+
 
 ## Contributing
 
